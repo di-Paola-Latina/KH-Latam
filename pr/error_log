@@ -1,0 +1,2 @@
+[22-Dec-2022 17:16:38 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kingshaw/public_html/pr/index.php:5) in /home/kingshaw/public_html/pr/server/home_info.php on line 2
+[22-Dec-2022 17:16:38 America/Santiago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/kingshaw/public_html/pr/index.php:5) in /home/kingshaw/public_html/pr/server/secciones_info.php on line 2

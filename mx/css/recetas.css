@@ -1,0 +1,168 @@
+.hero-image-recetas {
+    background-image:url("../img/home/recetas/RECETA_DEL_MES.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text-recetas {
+  text-align: center;
+  position: absolute;
+  top: 45%;
+  left: 17%;
+  transform: translate(-50%, -50%);
+ /* color: black;*/
+  display: table-cell;
+  vertical-align: middle;
+}
+.container-breadcrumb{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 81rem;
+  padding: 0 1.5rem;
+  position: relative;
+  width: 100%;
+  
+}
+
+.bg-breadcrumb{
+  background: #f6f4f4;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.breadcrumb-kh{
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 2%;
+  background-color: #F6F4F4;
+  height: 28px;
+  max-width: 40%;
+}
+
+.breadcrumb-kh li{
+  display: inline-block; 
+  font-size: 13px; 
+  font-family: Poppins-Regular;
+  line-height: 24px;
+  color: #877264;
+}
+.breadcrumb-kh li a{
+  border-bottom: solid 1px #877264;
+  text-decoration: none;
+  font-size: 13px;
+  color: #877264; 
+}
+
+.hero-text-recetas h3{
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    color: rgba(255,255,255,1);
+    margin: auto auto;
+    font-size: 4em;
+}
+.mt-10{
+    margin-top: 3.45rem !important;
+}
+.hr-81{
+  max-width: 71rem;
+  width: 100%;
+}
+.img-receta{
+  width: 210px;
+  height: auto;
+  max-width: 210px;
+}
+
+/*PONERLE PLICAS A LA LISTA*/
+.plicas ul {
+  list-style: none;
+  margin-left:-40px;
+}
+
+.plicas ul li {
+    font-size: 15px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath d='M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z' stroke='%234e2f1a' fill='%234e2f1a' /%3E%3C/svg%3E");
+    background-position: left 3px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+}
+
+
+
+@media (max-width: 600px) {
+  .hero-text-recetas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   /* color: black;*/
+    display: table-cell;
+    vertical-align: middle;
+    width: 90%;
+    
+  }
+  .hero-text-recetas h1{
+      text-transform: uppercase;
+      width: 100%;
+      height: auto;
+      color: rgba(255,255,255,1);
+      margin: auto auto;
+      font-size: 3em;
+  }
+  
+  
+}
+@media (min-width: 1400px) { 
+  .hero-text-recetas {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: black;*/
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .hero-text-recetas .align-recetas{
+    position:relative;
+    text-transform: uppercase;
+    width: 100%;
+    height: auto;
+    color: rgba(255,255,255,1);
+    margin-left:-138%; 
+  }
+  .breadcrumb-kh{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 1.7%;
+    background-color: #F6F4F4;
+    height: 28px;
+    max-width: 40%;
+  }
+  .mt-10{
+    margin-top: 3.75rem !important;
+  }
+  .container-breadcrumb{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 77rem;
+    padding: 0 1.5rem;
+    position: relative;
+    width: 100%;
+    
+  }
+}
